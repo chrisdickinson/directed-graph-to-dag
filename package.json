@@ -1,0 +1,31 @@
+{
+  "name": "directed-graph-to-dag",
+  "version": "1.0.0",
+  "description": "given a directed graph, return a set of edges to reverse to remove any cycles",
+  "main": "./lib/graph-to-dag.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/directed-graph-to-dag.git"
+  },
+  "keywords": [
+    "directed",
+    "graph",
+    "digraph",
+    "dag",
+    "cycle",
+    "removal"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdickinson/directed-graph-to-dag/issues"
+  },
+  "homepage": "https://github.com/chrisdickinson/directed-graph-to-dag",
+  "devDependencies": {
+    "digraph-tag": "^1.0.0",
+    "tape": "^4.0.0"
+  }
+}
